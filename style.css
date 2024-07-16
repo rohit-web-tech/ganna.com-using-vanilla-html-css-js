@@ -330,10 +330,10 @@ section .image-slider .image-section p:hover {
 
 @media all and (max-width : 500px) {
     #header .top-header .left .logo {
-        height: 20px;
+        height: 30px;
     }
     #header .top-header .left .menu-btn{
-        font-size: 15px ;
+        font-size: 17px ;
     }
     #header .top-header .left .search-bar{
         height : 20px ;
