@@ -352,11 +352,11 @@ section .image-slider .image-section p:hover {
     section .top a{
         font-size: 12px ;
     }
-    section .image-slider .image-section img{
+    /* section .image-slider .image-section img{
         height : 120px ;
         width : 120px ;
     }
     section .image-slider .image-section p{
         font-size: 10px ;
-    }
+    } */
 }
