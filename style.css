@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', poppins, Poppins;
+    border: none;
+    outline: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1450px;
+    width: 100%;
+    padding : 0px 20px ;
+}
+
+#header {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+#header .top-header {
+    background-color: #f5f5f5;
+    padding: 10px 0px;
+}
+
+#header .top-header .container {
+    justify-content: space-between;
+    gap : 20px ;
+}
+
+#header .top-header .left {
+    gap: 30px;
+}
+
+#header .top-header .left .menu-btn {
+    color: #313131;
+    font-size: 20px;
+}
+
+#header .top-header .left .logo {
+    height: 30px;
+}
+
+#header .top-header .left .search-bar {
+    width: 100%;
+    position: relative;
+}
+
+#header .top-header .left .search-bar i {
+    position: absolute;
+    left: 10px;
+    color: #888;
+}
+
+#header .top-header .left .search-bar input {
+    width: 400px;
+    height: 40px;
+    padding-left: 40px;
+    border-radius: 20px;
+    border: 1px solid rgb(208, 208, 208);
+    font-size: 12px;
+}
+
+#header .top-header .left .search-bar input:focus {
+    border-color: orange;
+}
+
+#header .top-header .right {
+    gap: 20px;
+}
+
+#header .top-header .right button {
+    background-color: transparent;
+    border: 1px solid #E72C30;
+    padding: 5px 20px;
+    font-size: 11px;
+    border-radius: 20px;
+    color: #E72C30;
+    font-weight: 600;
+}
+
+#header .top-header .right i {
+    color: #888;
+    font-size: 20px;
+}
+
+#header .top-header .right .sign-in {
+    color: #585858;
+    font-size: 12px;
+}
+
+#header .bottom-header {
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #fff;
+}
+
+#header .bottom-header ul {
+    justify-content: start;
+    list-style: none;
+    gap: 20px;
+}
+
+#header .bottom-header ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#header .bottom-header ul li a:hover {
+    border-bottom: 3px solid #E72C30;
+    font-weight: 500;
+}
+
+#header .bottom-header ul li a.active {
+    border-bottom: 3px solid #E72C30;
+    font-weight: 500;
+}
+
+#hero-banner {
+    margin-top: 20px;
+}
+
+#hero-banner .container {
+    gap: 20px;
+    overflow-x: auto;
+    justify-content: start;
+}
+
+#hero-banner .container img {
+    width: 600px;
+    box-shadow: 0px 0px 8px #a0a0a0;
+    border-radius: 5px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+section .container {
+    gap: 10px;
+}
+
+section .top {
+    justify-content: space-between;
+    width: 100%;
+}
+
+section .top h3 {
+    color: #222;
+    font-size: 22px;
+}
+
+section .top a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #E72C30;
+    font-weight: 500;
+}
+
+section .image-slider {
+    justify-content: start;
+    gap: 20px;
+    overflow: auto;
+    width: 100%;
+}
+
+section .image-slider .image-section img {
+    width: 160px;
+    height: 160px;
+}
+
+section .image-slider .image-section img:hover {
+    opacity: .6;
+    cursor: pointer;
+}
+
+section .image-slider.song-images .image-section img {
+    border-radius: 10px;
+}
+
+section .image-slider.artist-images {
+    text-align: center;
+}
+
+section .image-slider.artist-images .image-section img {
+    border-radius: 50%;
+}
+
+section .image-slider .image-section p {
+    text-overflow: ellipsis;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+section .image-slider .image-section p:hover {
+    color: #E72C30;
+    cursor: pointer;
+}
+
+#footer {
+    margin-top: 50px;
+    background-color: #f5f5f5;
+}
+
+#footer .footer {
+    padding: 20px 0px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.footer .container {
+    gap: 10px;
+}
+
+#footer .footer h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#footer .footer p {
+    font-size: 12px;
+    color: #777;
+}
+
+#footer .footer-2 .container {
+    gap: 100px;
+}
+
+#footer .footer-2 .container div {
+    gap: 10px;
+}
+
+#footer .footer-2 .container .top {
+    font-size: 11px;
+    color: #777;
+}
+
+#footer .footer-2 .container .bottom {
+    gap: 20px;
+}
+
+#footer .footer-3 .container {
+    gap: 30px;
+}
+
+#footer .footer .container a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #777;
+}
+
+#footer .footer-4 {
+    font-size: 13px;
+    color: #666;
+}
+
+@media all and (max-width:1020px) {
+    #header .bottom-header ul li a{
+        font-size: 14px ;
+    }
+}
+
+@media all and (max-width:968px) {
+    #header .bottom-header ul{
+        gap : 10px ;
+    }
+    #header .bottom-header ul li a{
+        font-size: 12px ;
+    }
+    #header .top-header .right {
+        gap: 10px;
+    }
+    #header .top-header .right i {
+        font-size: 15px;
+    }
+    #header .top-header .right button{
+        padding : 3px 10px ;
+    }
+    #header .top-header .left .search-bar input{
+        width : 300px ;
+    }
+    #header .top-header .left{
+        gap : 10px ;
+    }
+}
+
+@media all and (max-width:764px) {
+    #header .top-header .container .right{
+        display : none ;
+    }
+    #header .top-header .left{
+        gap : 20px ;
+        justify-content: space-between;
+        width : 100% ;
+    }
+    #header .top-header .left .search-bar input{
+        width : 100% ;
+    }
+    #header .bottom-header {
+        display: none ;
+    }
+}
+
+@media all and (max-width:640px) {
+    #hero-banner .container img{
+        width : 100% ;
+    }
+}
+
+@media all and (max-width : 500px) {
+    #header .top-header .left .logo {
+        height: 20px;
+    }
+    #header .top-header .left .menu-btn{
+        font-size: 15px ;
+    }
+    #header .top-header .left .search-bar{
+        height : 20px ;
+    }
+    #header .top-header .left .search-bar input{
+        height: 30px ;
+        font-size: 10px ;
+        padding-left: 30px ;
+    }
+    #header .top-header .left .search-bar i{
+        font-size: 10px ;
+    }
+    section .top h3{
+        font-size: 17px ;
+    }
+    section .top a{
+        font-size: 12px ;
+    }
+    section .image-slider .image-section img{
+        height : 120px ;
+        width : 120px ;
+    }
+    section .image-slider .image-section p{
+        font-size: 10px ;
+    }
+}
